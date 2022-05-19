@@ -32,7 +32,7 @@ class TsurikkumaStyleGame {
 	private sea: Sea;
 	private fishingRod: FishingRod;
 	private hudManager: HUDManager;
-	private isPlaying: boolean = false;
+	private isPlaying = false;
 
 	constructor(scene: g.Scene) {
 		this.scene = scene;

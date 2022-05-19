@@ -121,7 +121,7 @@ export class HUDManager {
 			this._timeLabel.invalidate();
 		}
 		this._timeLimit -= 1 / g.game.fps;
-	};
+	}
 
 	// ----------
 	// システムラベル関係
@@ -138,7 +138,7 @@ export class HUDManager {
 			.wait(1000).call(() => this._systemLabel.text="Start!")
 			.wait(500).fadeOut(500)
 			.call(() => finished());
-	};
+	}
 
 	/**
 	 * 終了時のシステム文言表示
