@@ -166,7 +166,9 @@ export class FishingRod {
 			x: ROD_POS.x,
 			y: ROD_POS.y,
 			angle: ROD_ANGLE,
-			parent: this._parent
+			parent: this._parent,
+			anchorX: null,
+			anchorY: null
 		});
 	}
 
